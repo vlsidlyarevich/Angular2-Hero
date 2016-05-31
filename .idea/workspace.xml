@@ -22,15 +22,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app.component.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/app.component.ts">
+      <file leaf-file-name="heroes.component.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/heroes.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1398">
-              <caret line="76" column="42" selection-start-line="76" selection-start-column="42" selection-end-line="76" selection-end-column="42" />
+            <state relative-caret-position="-830">
+              <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
               <folding>
                 <element signature="e#0#42#0" expanded="true" />
-                <marker date="1464680267432" expanded="true" signature="346:550" placeholder="..." />
-                <marker date="1464680267432" expanded="true" signature="385:540" placeholder="..." />
+                <marker date="1464682817342" expanded="true" signature="349:553" placeholder="..." />
+                <marker date="1464682817342" expanded="true" signature="388:543" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -50,7 +50,7 @@
         <entry file="file://$PROJECT_DIR$/app/hero.service.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -58,7 +58,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hero-detail.component.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="hero-detail.component.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/hero-detail.component.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
@@ -106,9 +106,10 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/app/hero.ts" />
         <option value="$PROJECT_DIR$/app/mock-heroes.ts" />
-        <option value="$PROJECT_DIR$/app/hero.service.ts" />
         <option value="$PROJECT_DIR$/app/hero-detail.component.ts" />
+        <option value="$PROJECT_DIR$/app/hero.service.ts" />
         <option value="$PROJECT_DIR$/app/app.component.ts" />
+        <option value="$PROJECT_DIR$/app/heroes.component.ts" />
       </list>
     </option>
   </component>
@@ -696,12 +697,12 @@
       <workItem from="1464536309593" duration="1232000" />
       <workItem from="1464598059085" duration="666000" />
       <workItem from="1464604958216" duration="346000" />
-      <workItem from="1464679893808" duration="507000" />
+      <workItem from="1464679893808" duration="2211000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11889000" />
+    <option name="totallyTimeSpent" value="13593000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1366" y="24" width="1920" height="1056" extended-state="6" />
@@ -715,26 +716,26 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.325" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.325" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17449306" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -761,14 +762,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/app.component.ts">
+    <entry file="file://$PROJECT_DIR$/app/heroes.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#42#0" expanded="true" />
-            <marker date="1464680267432" expanded="true" signature="346:550" placeholder="..." />
-            <marker date="1464680267432" expanded="true" signature="385:540" placeholder="..." />
+            <marker date="1464682817342" expanded="true" signature="349:553" placeholder="..." />
+            <marker date="1464682817342" expanded="true" signature="388:543" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -810,14 +811,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/app.component.ts">
+    <entry file="file://$PROJECT_DIR$/app/heroes.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#42#0" expanded="true" />
-            <marker date="1464680267432" expanded="true" signature="346:550" placeholder="..." />
-            <marker date="1464680267432" expanded="true" signature="385:540" placeholder="..." />
+            <marker date="1464682817342" expanded="true" signature="349:553" placeholder="..." />
+            <marker date="1464682817342" expanded="true" signature="388:543" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -875,14 +876,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/app.component.ts">
+    <entry file="file://$PROJECT_DIR$/app/heroes.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#42#0" expanded="true" />
-            <marker date="1464680267432" expanded="true" signature="346:550" placeholder="..." />
-            <marker date="1464680267432" expanded="true" signature="385:540" placeholder="..." />
+            <marker date="1464682817342" expanded="true" signature="349:553" placeholder="..." />
+            <marker date="1464682817342" expanded="true" signature="388:543" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -933,14 +934,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/app.component.ts">
+    <entry file="file://$PROJECT_DIR$/app/heroes.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#42#0" expanded="true" />
-            <marker date="1464680267432" expanded="true" signature="346:550" placeholder="..." />
-            <marker date="1464680267432" expanded="true" signature="385:540" placeholder="..." />
+            <marker date="1464682817342" expanded="true" signature="349:553" placeholder="..." />
+            <marker date="1464682817342" expanded="true" signature="388:543" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -953,19 +954,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/app.component.ts">
+    <entry file="file://$PROJECT_DIR$/app/heroes.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#42#0" expanded="true" />
-            <marker date="1464680267432" expanded="true" signature="346:550" placeholder="..." />
-            <marker date="1464680267432" expanded="true" signature="385:540" placeholder="..." />
+            <marker date="1464682817342" expanded="true" signature="349:553" placeholder="..." />
+            <marker date="1464682817342" expanded="true" signature="388:543" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/app.component.js">
+    <entry file="file://$PROJECT_DIR$/app/heroes.component.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -988,14 +989,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/hero.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/mock-heroes.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1012,28 +1005,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/hero.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/app.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1398">
-          <caret line="76" column="42" selection-start-line="76" selection-start-column="42" selection-end-line="76" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-            <marker date="1464680267432" expanded="true" signature="346:550" placeholder="..." />
-            <marker date="1464680267432" expanded="true" signature="385:540" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/hero-detail.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -1042,6 +1013,52 @@
             <element signature="e#0#49#0" expanded="true" />
             <marker date="1464680267608" expanded="true" signature="166:378" placeholder="..." />
             <marker date="1464680267608" expanded="true" signature="264:367" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/hero.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/typescript/lib/lib.core.es7.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="5118" column="12" selection-start-line="5118" selection-start-column="12" selection-end-line="5118" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/typescript/lib/lib.es6.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="1346" column="12" selection-start-line="1346" selection-start-column="12" selection-end-line="1346" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/hero.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/heroes.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-830">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+            <marker date="1464682817342" expanded="true" signature="349:553" placeholder="..." />
+            <marker date="1464682817342" expanded="true" signature="388:543" placeholder="..." />
           </folding>
         </state>
       </provider>

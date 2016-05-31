@@ -7,7 +7,7 @@ import { HeroService } from './hero.service';
 
 
 @Component({
-    selector: 'my-app',
+    selector: 'my-heroes',
     template:`
     <h1>{{title}}</h1>
     <h2>My Heroes</h2>
@@ -72,12 +72,12 @@ import { HeroService } from './hero.service';
     directives: [HeroDetailComponent],
     providers: [HeroService]
 })
-export class AppComponent implements OnInit {
+export class HeroesComponent implements OnInit {
 
     constructor(private heroService: HeroService) { };
-    
+
     getHeroes() {
-        this.heroes = this.heroService.getHeroes();
+        this.heroService.getHeroes().then(heroes=>this.heroes = heroes);
     }
     
     ngOnInit() {
