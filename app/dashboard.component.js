@@ -15,6 +15,9 @@ var DashboardComponent = (function () {
         this.heroService = heroService;
     }
     DashboardComponent.prototype.ngOnInit = function () {
+        this.getHeroes();
+    };
+    DashboardComponent.prototype.getHeroes = function () {
         var _this = this;
         this.heroService.getHeroes()
             .then(function (heroes) { return _this.heroes = heroes; });
