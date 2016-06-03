@@ -1,47 +1,60 @@
-.selected {
-    background-color: #CFD8DC !important;
-    color: white;
+[class*='col-'] {
+    float: left;
 }
-.heroes {
-    margin: 0 0 2em 0;
-    list-style-type: none;
-    padding: 0;
-    width: 15em;
+*, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
-.heroes li {
-    cursor: pointer;
-    position: relative;
-    left: 0;
-    background-color: #EEE;
-    margin: .5em;
-    padding: .3em 0;
-    height: 1.6em;
-    border-radius: 4px;
+h3 {
+    text-align: center; margin-bottom: 0;
 }
-.heroes li.selected:hover {
-    background-color: #BBD8DC !important;
-    color: white;
+[class*='col-'] {
+    padding-right: 20px;
+    padding-bottom: 20px;
 }
-.heroes li:hover {
-    color: #607D8B;
-    background-color: #DDD;
-    left: .1em;
+[class*='col-']:last-of-type {
+    padding-right: 0;
 }
-.heroes .text {
-    position: relative;
-    top: -3px;
+.grid {
+    margin: 0;
 }
-.heroes .badge {
-    display: inline-block;
-    font-size: small;
-    color: white;
-    padding: 0.8em 0.7em 0 0.7em;
+.col-1-4 {
+    width: 25%;
+}
+.module {
+    padding: 20px;
+    text-align: center;
+    color: #eee;
+    max-height: 120px;
+    min-width: 120px;
     background-color: #607D8B;
-    line-height: 1em;
+    border-radius: 2px;
+}
+h4 {
     position: relative;
-    left: -1px;
-    top: -4px;
-    height: 1.8em;
-    margin-right: .8em;
-    border-radius: 4px 0 0 4px;
+}
+.module:hover {
+    background-color: #EEE;
+    cursor: pointer;
+    color: #607d8b;
+}
+.grid-pad {
+    padding: 10px 0;
+}
+.grid-pad > [class*='col-']:last-of-type {
+    padding-right: 20px;
+}
+@media (max-width: 600px) {
+    .module {
+        font-size: 10px;
+        max-height: 75px; }
+}
+@media (max-width: 1024px) {
+    .grid {
+        margin: 0;
+    }
+    .module {
+        min-width: 60px;
+    }
 }

@@ -22,7 +22,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="heroes.component.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="heroes.component.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/heroes.component.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="260">
@@ -30,6 +30,16 @@
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hero.detail.component.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/hero.detail.component.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -122,6 +132,7 @@
         <option value="$PROJECT_DIR$/app/heroes.component.ts" />
         <option value="$PROJECT_DIR$/app/dashboard.component.css" />
         <option value="$PROJECT_DIR$/app/dashboard.component.ts" />
+        <option value="$PROJECT_DIR$/app/hero.detail.component.css" />
       </list>
     </option>
   </component>
@@ -716,12 +727,12 @@
       <workItem from="1464810567160" duration="2864000" />
       <workItem from="1464857689287" duration="68000" />
       <workItem from="1464894126196" duration="7610000" />
-      <workItem from="1464958018599" duration="372000" />
+      <workItem from="1464958018599" duration="550000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25512000" />
+    <option name="totallyTimeSpent" value="25690000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1366" y="24" width="1366" height="744" extended-state="6" />
@@ -765,16 +776,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/hero-detail.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#52#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/mock-heroes.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1184,6 +1185,14 @@
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/hero.detail.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
