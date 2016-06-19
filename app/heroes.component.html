@@ -11,4 +11,9 @@
         {{selectedHero.name | uppercase}} is my hero
     </h2>
     <button (click)="gotoDetail(selectedHero)">View Details</button>
+    <button (click)="addHero()">Add New Hero</button>
+    <div *ngIf="addingHero">
+        <my-hero-detail (close)="close($event)"></my-hero-detail>
+    </div>
+    <button class="delete-button" (click)="delete(hero, $event)">Delete</button>
 </div>

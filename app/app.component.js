@@ -21,31 +21,18 @@ var AppComponent = (function () {
     AppComponent = __decorate([
         core_1.Component({
             selector: 'my-app',
-            templateUrl: 'app/app.component.html',
+            template: "\n    <h1>{{title}}</h1>\n    <nav>\n      <a [routerLink]=\"['Dashboard']\">Dashboard</a>\n      <a [routerLink]=\"['Heroes']\">Heroes</a>\n    </nav>\n    <router-outlet></router-outlet>\n  ",
             styleUrls: ['app/app.component.css'],
             directives: [router_deprecated_1.ROUTER_DIRECTIVES],
             providers: [
                 router_deprecated_1.ROUTER_PROVIDERS,
-                hero_service_1.HeroService
+                hero_service_1.HeroService,
             ]
         }),
         router_deprecated_1.RouteConfig([
-            {
-                path: '/dashboard',
-                name: 'Dashboard',
-                component: dashboard_component_1.DashboardComponent,
-                useAsDefault: true
-            },
-            {
-                path: '/detail/:id',
-                name: 'HeroDetail',
-                component: hero_detail_component_1.HeroDetailComponent
-            },
-            {
-                path: '/heroes',
-                name: 'Heroes',
-                component: heroes_component_1.HeroesComponent
-            }
+            { path: '/dashboard', name: 'Dashboard', component: dashboard_component_1.DashboardComponent, useAsDefault: true },
+            { path: '/detail/:id', name: 'HeroDetail', component: hero_detail_component_1.HeroDetailComponent },
+            { path: '/heroes', name: 'Heroes', component: heroes_component_1.HeroesComponent }
         ]), 
         __metadata('design:paramtypes', [])
     ], AppComponent);

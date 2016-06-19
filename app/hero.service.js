@@ -24,17 +24,35 @@ var HeroService = (function () {
     };
     HeroService.prototype.getHero = function (id) {
         return this.getHeroes()
-            .then(function (heroes) { return heroes.filter(function (hero) { return hero.id == id; })[0]; });
+            .then(function (heroes) { return heroes.filter(function (hero) { return hero.id === id; })[0]; });
     };
+    HeroService.prototype.save = function (hero) {
+        if (hero.id) {
+            return this.put(hero);
+        }
+        return this.post(hero);
+    };
+    HeroService.prototype.delete = function (hero) {
+        var headers = new http_1.Headers();
+        headers.append('Content-Type', 'application/json');
+        var url = this.heroesUrl + "/" + hero.id;
+        return this.http
+            .delete(url, headers)
+            .toPromise()
+            .catch(this.handleError);
+    };
+    // Add new Hero
     HeroService.prototype.post = function (hero) {
         var headers = new http_1.Headers({
-            'Content-Type': 'application/json' });
+            'Content-Type': 'application/json'
+        });
         return this.http
             .post(this.heroesUrl, JSON.stringify(hero), { headers: headers })
             .toPromise()
             .then(function (res) { return res.json().data; })
             .catch(this.handleError);
     };
+    // Update existing Hero
     HeroService.prototype.put = function (hero) {
         var headers = new http_1.Headers();
         headers.append('Content-Type', 'application/json');
